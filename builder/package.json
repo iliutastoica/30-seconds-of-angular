@@ -15,7 +15,7 @@
   "dependencies": {
     "helper-markdown": "^1.0.0",
     "highlight.js": "^9.15.6",
-    "jest": "^24.8.0",
+    "jest": "^24.9.0",
     "jstransformer-handlebars": "^1.1.0",
     "md-to-json-snippet-generator": "0.0.9",
     "merge-dirs": "^0.2.1",
