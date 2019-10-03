@@ -33,7 +33,7 @@
     "metalsmith-tags": "^2.0.0",
     "metalsmith-validate": "^0.1.4",
     "metalsmith-watch": "^1.0.3",
-    "puppeteer": "^1.15.0",
+    "puppeteer": "^1.20.0",
     "yargs": "^13.2.4"
   }
 }
