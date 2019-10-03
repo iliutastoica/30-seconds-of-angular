@@ -7,7 +7,9 @@
     "build": "builder-30-seconds build",
     "start": "builder-30-seconds serve",
     "deploy": "npm run generate && firebase deploy --only hosting:angular-30-seconds",
-    "deploy:staging": "npm run generate && firebase deploy --only hosting:angular-30-seconds-staging"
+    "deploy:staging": "npm run generate && firebase deploy --only hosting:angular-30-seconds-staging",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,8 @@
   "homepage": "https://github.com/nycJSorg/30-seconds-of-angular#readme",
   "devDependencies": {},
   "dependencies": {
-    "builder-30-seconds": "file:./builder"
-  }
+    "builder-30-seconds": "file:./builder",
+    "snyk": "^1.230.5"
+  },
+  "snyk": true
 }
