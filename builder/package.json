@@ -4,7 +4,9 @@
   "description": "30 seconds site generator",
   "main": "serve.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [],
   "bin": {
@@ -34,6 +36,8 @@
     "metalsmith-validate": "^0.1.4",
     "metalsmith-watch": "^1.0.3",
     "puppeteer": "^1.15.0",
-    "yargs": "^13.2.4"
-  }
+    "yargs": "^13.2.4",
+    "snyk": "^1.230.5"
+  },
+  "snyk": true
 }
