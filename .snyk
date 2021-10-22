@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - builder-30-seconds > metalsmith-copy > lodash:
+        patched: '2021-10-22T23:37:33.279Z'
+    - builder-30-seconds > metalsmith-discover-partials > fs-tools > lodash:
+        patched: '2021-10-22T23:37:33.279Z'
+    - builder-30-seconds > metalsmith-watch > gaze > globule > lodash:
+        patched: '2021-10-22T23:37:33.279Z'
+    - builder-30-seconds > jest > jest-cli > jest-config > @babel/core > lodash:
+        patched: '2021-10-22T23:37:33.279Z'
+    - builder-30-seconds > jest > jest-cli > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2021-10-22T23:37:33.279Z'
+    - builder-30-seconds > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2021-10-22T23:37:33.279Z'
