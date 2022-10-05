@@ -1,0 +1,33 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - builder-30-seconds > metalsmith-watch > tiny-lr > debug:
+        patched: '2022-10-05T20:55:03.157Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - builder-30-seconds > puppeteer > https-proxy-agent:
+        patched: '2022-10-05T20:55:03.157Z'
+  SNYK-JS-LODASH-567746:
+    - builder-30-seconds > metalsmith-copy > lodash:
+        patched: '2022-10-05T20:55:03.157Z'
+    - builder-30-seconds > metalsmith-discover-partials > fs-tools > lodash:
+        patched: '2022-10-05T20:55:03.157Z'
+    - builder-30-seconds > metalsmith-watch > gaze > globule > lodash:
+        patched: '2022-10-05T20:55:03.157Z'
+    - builder-30-seconds > jest > jest-cli > jest-config > @babel/core > lodash:
+        patched: '2022-10-05T20:55:03.157Z'
+    - builder-30-seconds > jest > jest-cli > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2022-10-05T20:55:03.157Z'
+    - builder-30-seconds > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2022-10-05T20:55:03.157Z'
+  'npm:lodash:20180130':
+    - builder-30-seconds > merge-dirs > inquirer > lodash:
+        patched: '2022-10-05T20:55:03.157Z'
+  'npm:minimatch:20160620':
+    - builder-30-seconds > metalsmith-validate > minimatch:
+        patched: '2022-10-05T20:55:03.157Z'
+  'npm:ms:20151024':
+    - builder-30-seconds > metalsmith-watch > tiny-lr > debug > ms:
+        patched: '2022-10-05T20:55:03.157Z'
